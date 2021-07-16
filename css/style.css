@@ -1,0 +1,345 @@
+@font-face {
+  font-family: "solano";
+  src: url("../fonte/solano.ttf") format("truetype");
+ }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+body{
+  background: url('../img/fundo.png') center center no-repeat #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin: 0 auto;
+  padding: 0 auto;
+  font-family: "solano", serif;
+  font-weight: bold;
+  line-height: 1;
+  scroll-behavior: smooth;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+.page1{
+  padding-bottom:50%;
+  height: 100%; 
+}
+.docker{
+    height: 100%; 
+	width: 1020px;
+    margin: 0 auto;
+}
+.page1 .menu{
+	margin: 10px 0 0 0;
+	float: left;	
+}
+.page1 .menu img{
+	float: left;
+}
+.page1 .menu a{
+	float: left;
+	color: #000;
+	text-decoration: none; 
+	font-size: 19px;
+	padding: 40px 30px 0 40px;
+}
+.page1 a:hover{
+	text-decoration: underline;
+}
+.page1 .frase{
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin: 0 0 0 0;
+}
+.page1 .frase h1{
+	margin: 50px 0 0 0;
+	color: #000;
+	font-size: 29px;
+	font-weight: normal;
+}
+.page1 .frase h1 span{
+	font-weight: bold;
+	font-size: 32px;
+	color: #E7E7E7;
+}
+.page1 .video{
+	height: 130px;
+	width: 100%;
+	float: left;
+	margin:27% 0 0 0;
+}
+.page1 .video ul{
+  list-style-type: none;
+  height: 130px;
+  padding: 0 0 0 2%;
+}
+.page1 .video li{
+	height: 130px;
+	width: 18%;
+	float: left;
+	background: #0E0F18;
+	margin: 0 20px 0 0;
+}
+.page1 .video img{
+	height: 94%;
+	width: 94%;
+	float: left;
+	margin: 2% 0 0 3%;
+	z-index: 2;
+
+}
+.page1 .video {
+	z-index: 2;
+
+}
+.page1 .video .icone{
+	height: 6.3%;
+	width: 3%;
+	background: url('../img/play.png') no-repeat;
+	z-index: 3;
+	float: left;
+	position: absolute;
+	margin: 3% 0 0 7%;
+}
+.page1 .video .icone:hover{
+
+	background: url('../img/play2.png') no-repeat ;
+
+}
+.page2{
+  padding-bottom:50%;
+  height: 100%; 
+
+}
+.page2 .historia{
+	width: 100%;
+	float: left;
+	margin: 5% 0 0 0;
+
+}
+.page2 .historia h1{
+	color: #fff;
+	font-size: 44px;
+	float: left;
+	margin: 0 0 0 46%;
+	font-weight: 700;
+}
+.page2 .historia h2{
+	width: 60%;
+	height: 50%;
+	margin: 70px 0 0 20%;
+	color: #E7E7E7;
+	font-weight: normal;
+	float: left;
+	opacity: 0.5;
+}
+.page3{
+  padding-bottom:50%;
+  height: 100%; 
+}
+.page3 .conquista{
+	width: 100%;
+	float: left;
+	margin: 30% 0 0 0;
+}
+.page3 .conquista .bc{
+	float: left;
+	margin: 10% 0 0 20%;
+}
+.page3 .conquista .bc img{
+	margin: 0 0 0 0;
+}
+.page3 .conquista .bc h1{
+	margin: -15px 0 0 21px;
+	font-size: 90px;
+	color: #fff;
+}
+.page3 .conquista .bc h2{
+	margin: 5px 0 0 40px;
+	font-size: 45px;
+	color: #fff;
+}
+.page3 .conquista .membros{
+	margin: 0 10% 0 10%;
+	float: left;
+}
+.page3 .conquista .membros img{
+	margin: 0 0 0 0;
+}
+.page3 .conquista .membros h1{
+	margin: -15px 0 0 25px;
+	font-size: 120px;
+	color: #fff;
+}
+.page3 .conquista .membros h2{
+	margin: 5px 0 0 30px;
+	font-size: 45px;
+	color: #fff;
+}
+.page3 .conquista .sod{
+	margin: 10% 0 0 0;
+	float: left;
+}
+.page3 .conquista .sod img{
+	margin: 0 0 0 0;
+}
+.page3 .conquista .sod h1{
+	margin: -15px 0 0 21px;
+	font-size: 90px;
+	color: #fff;
+}
+.page3 .conquista .sod h2{
+	margin: 5px 0 0 30px;
+	font-size: 45px;
+	color: #fff;
+}
+.page3 .rotape{
+	margin: 150px 0 5px 0;
+	width: 100%;
+	float: left;
+	text-align: center;
+	background: #000;
+}
+.page3 .rotape h1{
+	color: #E7E7E7;
+	font-weight: normal;
+	opacity: 0.5;
+}
+.page3 .rotape h1 span{
+	font-weight: 700;
+}
+.page3 .rotape h1 a{
+	color: #E7E7E7;
+	text-decoration: none;
+}
+.page3 .rotape h1 a:hover{
+	font-weight: bold;
+	opacity: 0.9;
+}
+
+@media only screen and (max-width: 720px) {
+	html, body {
+  	overflow-x:hidden;
+  	width: 100%;
+  	background: url('../img/testebg.fw.png') center center no-repeat #000;
+	}
+	.docker{
+    	height: 100%; 
+		width: 400px;
+    	margin: 0 auto;
+	}
+	.page1 .menu a{
+		font-size: 12px;
+		padding: 10px 5px 0 8px;
+
+	}
+	.page1 .menu img{
+		height: 50px;
+		width: 50px;
+	}
+	.page1 .frase h1{
+		font-size: 19px;
+	}	
+	.page1 .frase h1 span{
+		font-size: 22px;
+	}
+	.page1 .video ul{
+		padding: 0 0 0 3%;
+	}
+	.page1 .video li{
+		height: 50px;
+		width: 17%;
+		margin: 0 10px 0 0;
+	}
+	.page1 .video .icone{
+		height: 6.3%;
+		width: 7%;
+		background: url('../img/play-mini.png') no-repeat;
+		margin: 4.5% 0 0 5%;
+	}
+	.page1 .video .icone:hover{
+		background: url('../img/play2-mini.png') no-repeat;
+	}
+	.page2 .historia h1{		
+		margin: 0 0 0 6%;
+	}
+	.page2 .historia h2{
+		margin: 70px 0 50px -15%;
+	}
+	.page3 .conquista .bc{
+		margin: 10% 0 0 5%;
+	}
+	.page3 .conquista .bc img{
+		height: 50px;
+		width: 70px;
+	}
+	.page3 .conquista .bc h1{
+		margin: -12px 0 0 15px;
+		font-size: 50px;
+	}
+	.page3 .conquista .bc h2{
+		margin: 5px 0 0 22px;
+		font-size: 35px;
+	}
+	.page3 .conquista .membros{
+		margin: 0 5% 0 10%;
+	}
+	.page3 .conquista .membros img{
+		height: 90px;
+		width: 120px;
+	}
+	.page3 .conquista .membros h1{
+		margin: -17px 0 0 22px;
+		font-size: 70px;
+	}
+	.page3 .conquista .membros h2{
+		font-size: 40px;
+		margin: 5px 0 0 7px;
+	}
+	.page3 .conquista .sod{
+		margin: 10% 0 0 0;
+	}
+	.page3 .conquista .sod img{
+		height: 50px;
+		width: 70px;
+	}
+	.page3 .conquista .sod h1{
+		margin: -12px 0 0 15px;
+		font-size: 50px;
+	}
+	.page3 .conquista .sod h2{
+		margin: 5px 0 0 13px;
+		font-size: 35px;
+	}
+
+
+}
