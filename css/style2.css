@@ -224,7 +224,6 @@ q {
 @media only screen and (max-width: 500px) {
   .historia h1 {
     margin: 20px 0 0 33%;
-    color: #00005a;
   }
   .video ul {
     grid-template-columns: repeat(1, 1fr);
