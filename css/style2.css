@@ -48,7 +48,7 @@ blockquote,
 q {
   quotes: '' '';
 }
-.container {
+.container-geral {
   max-width: 1020px;
   margin: 0 auto;
 }
@@ -179,6 +179,17 @@ q {
   font-size: 120px;
 }
 
+/* eventos */
+.eventos {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+.eventos h1 {
+  color: #e7e7e7;
+  font-weight: 700;
+}
+
 /* rodapé */
 .rodape {
   display: flex;
@@ -189,6 +200,9 @@ q {
   padding: 20px;
   align-items: center;
   justify-content: center;
+}
+.rodape h1 {
+  font-size: 1rem;
 }
 .rodape a {
   text-decoration: none;
