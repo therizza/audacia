@@ -59,6 +59,7 @@
 		<h1>" A sorte favorece os audaciosos. "</h1>
 	</div>
 
+
 	<div class="video">
 		<ul>
 			<li>
@@ -247,19 +248,19 @@
 	<section class="conquistas container-geral" id="page3">
 		<div class="bc">
 			<img src="img/coroa.png" height="87" width="121" alt="Coroa de BC">
-			<h1>06<h1>
+			<h1 id='bc'>00<h1>
 					<h2>BC<h2>
 		</div>
 		<!--bc-->
-		<div class="membros">
+		<div  class="membros">
 			<img src="img/coroa.png" alt="Coroa de MEMBROS">
-			<h1>109<h1>
+			<h1 id='membros'>00<h1>
 					<h2>MEMBROS<h2>
 		</div>
 		<!--menbros-->
-		<div class="sod">
+		<div  class="sod">
 			<img src="img/coroa.png" height="87" width="121" alt="Coroa de SOD">
-			<h1>08<h1>
+			<h1 id='sod'>00<h1>
 					<h2>SOD<h2>
 		</div>
 		<!--sod-->
@@ -304,6 +305,39 @@
 			<h1>Todos os direitos reservados - 2021 <span>Audácia Clã</span> - Desenvolvido por <a href="https://www.instagram.com/matheusrizza/" target="_blank">Rizza e </a><a target="_blank" href="https://github.com/sbezerrarafa">Rafael</a></h1>
 		</div>
 	</section>
+
+	<script>
+			var counterMembros = document.getElementById('membros');
+			var counterSod = document.getElementById('sod');
+			var counterBc = document.getElementById('bc');
+
+			function incrementMembros(i, max){
+				if(i > max) return;
+				setTimeout(function(){
+					counterMembros.innerText = i;
+					incrementMembros(i+1, max);
+				},10)
+			}
+			function incrementSod(i, max){
+				if(i > max) return;
+				setTimeout(function(){
+					counterSod.innerText = i;
+					incrementSod(i+1, max);
+				},100)
+			}
+			function incrementBc(i, max){
+				if(i > max) return;
+				setTimeout(function(){
+					counterBc.innerText = i;
+					incrementBc(i+1, max);
+				},100)
+			}
+
+		incrementMembros(0,109);
+		incrementSod(0,11);
+		incrementBc(0,9);
+
+	</script>
 </body>
 
 </html>
